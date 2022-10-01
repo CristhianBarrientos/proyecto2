@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.shape.*?>
+<?import javafx.scene.text.*?>
+
+<AnchorPane prefHeight="622.0" prefWidth="859.0" style="-fx-border-color: Black; -fx-border-width: 5;" xmlns="http://javafx.com/javafx/17.0.2-ea" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.proyecto2.ventana2Controlador">
+   <children>
+      <Pane layoutX="8.0" prefHeight="280.0" prefWidth="718.0">
+         <children>
+            <TextFlow layoutX="-6.0" prefHeight="26.0" prefWidth="856.0" style="-fx-border-color: black; -fx-border-width: 2;">
+               <children>
+                  <Label text="Nuevo Cuestionario" translateX="5.0" translateY="4.0" />
+               </children></TextFlow>
+            <Label layoutX="133.0" layoutY="95.0" prefHeight="22.0" prefWidth="59.0" text="Titulo" />
+            <Label layoutX="115.0" layoutY="184.0" prefHeight="22.0" prefWidth="107.0" text="Descripcion" />
+            <TextField fx:id="spcTituloNuevoCuestionario" layoutX="329.0" layoutY="94.0" prefHeight="24.0" prefWidth="339.0" />
+            <TextField fx:id="spcDescripcionNuevoCuestionario" layoutX="329.0" layoutY="183.0" prefHeight="24.0" prefWidth="339.0" />
+         </children>
+      </Pane>
+      <Button fx:id="btnCancelarNuevoCuestionario" layoutX="245.0" layoutY="369.0" mnemonicParsing="false" prefHeight="50.0" prefWidth="115.0" text="Cancelar " />
+      <Button layoutX="533.0" layoutY="369.0" mnemonicParsing="false" prefHeight="50.0" prefWidth="115.0" text="Siguiente" />
+      <Line endX="727.0" layoutX="121.0" layoutY="596.0" startX="-116.0" />
+   </children>
+</AnchorPane>

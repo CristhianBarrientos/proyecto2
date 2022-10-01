@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.shape.*?>
+<?import javafx.scene.text.*?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="622.0" prefWidth="859.0" style="-fx-border-width: 5; -fx-border-color: black;" xmlns="http://javafx.com/javafx/17.0.2-ea" xmlns:fx="http://javafx.com/fxml/1">
+   <children>
+      <TextFlow prefHeight="26.0" prefWidth="856.0" style="-fx-border-width: 2; -fx-border-color: black;" />
+      <Label text="Detalle del Cuestionario" translateX="5.0" translateY="5.0" />
+      <Label fx:id="labelTitulo" layoutX="316.0" layoutY="58.0" text="titulo" />
+      <Label fx:id="labelDescripcionDetalleCuestionario" layoutX="296.0" layoutY="89.0" text="Descripción" />
+      <HBox layoutX="276.0" layoutY="123.0" prefHeight="44.0" prefWidth="241.0">
+         <children>
+            <Button fx:id="btnModificarDetalleCuestionario" mnemonicParsing="false" onAction="#botonModificar" text="Modificar" />
+            <Button fx:id="btnBorrarDetalleCuestionario" mnemonicParsing="false" onAction="#botonBorrar" text="Borrar" translateX="15.0" />
+         </children>
+      </HBox>
+      <TableView layoutX="216.0" layoutY="173.0" prefHeight="305.0" prefWidth="427.0">
+        <columns>
+          <TableColumn fx:id="tvTableColumnPregunta" prefWidth="102.0" text="Pregunta" />
+          <TableColumn fx:id="tvTableColumnTiempoLimite" prefWidth="188.0" text="Tiempo Límite" />
+            <TableColumn fx:id="tvTableColumnPunteo" prefWidth="93.0" text="Punteo" />
+            <TableColumn prefWidth="43.0" />
+        </columns>
+      </TableView>
+      <Circle fill="WHITE" layoutX="710.0" layoutY="520.0" radius="42.0" stroke="BLACK" strokeType="INSIDE" />
+      <Rectangle fx:id="botonMaspt2" arcHeight="5.0" arcWidth="5.0" fill="#050000" height="44.0" layoutX="705.0" layoutY="498.0" stroke="BLACK" strokeType="INSIDE" width="10.0" />
+      <Rectangle fx:id="botonMaspt1" arcHeight="5.0" arcWidth="5.0" height="9.0" layoutX="687.0" layoutY="516.0" stroke="BLACK" strokeType="INSIDE" width="46.0" />
+      <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#ffffff00" height="26.0" layoutX="2.0" layoutY="595.0" stroke="BLACK" strokeType="INSIDE" width="856.0" />
+   </children>
+</AnchorPane>

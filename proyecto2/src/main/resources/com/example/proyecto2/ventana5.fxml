@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.shape.*?>
+<?import javafx.scene.text.*?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="545.0" prefWidth="674.0" style="-fx-border-color: black; -fx-border-width: 5;" xmlns="http://javafx.com/javafx/17.0.2-ea" xmlns:fx="http://javafx.com/fxml/1">
+   <children>
+      <TextFlow prefHeight="26.0" prefWidth="674.0" style="-fx-border-color: black; -fx-border-width: 2;">
+         <children>
+            <Label text="Ingresar" translateX="5.0" translateY="4.0" />
+         </children>
+      </TextFlow>
+      <Label layoutX="125.0" layoutY="110.0" prefHeight="26.0" prefWidth="44.0" text="Pin">
+         <font>
+            <Font size="14.0" />
+         </font>
+      </Label>
+      <TextField fx:id="txtTextFieldPinIngresar" layoutX="210.0" layoutY="106.0" prefHeight="34.0" prefWidth="213.0" />
+      <TextField fx:id="txtTextFieldSobrenombreIngresar" layoutX="210.0" layoutY="197.0" prefHeight="34.0" prefWidth="213.0" />
+      <Label layoutX="80.0" layoutY="206.0" text="Sobrenombre" />
+      <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#eeeeee00" height="22.0" layoutY="518.0" stroke="BLACK" strokeType="INSIDE" width="674.0" />
+      <Button fx:id="btn" layoutX="255.0" layoutY="273.0" mnemonicParsing="false" prefHeight="26.0" prefWidth="114.0" text="Ingresar" />
+   </children>
+</AnchorPane>

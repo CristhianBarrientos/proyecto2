@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.shape.*?>
+<?import javafx.scene.text.*?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="622.0" prefWidth="859.0" style="-fx-border-color: Black; -fx-border-width: 5;" xmlns="http://javafx.com/javafx/17.0.2-ea" xmlns:fx="http://javafx.com/fxml/1">
+   <children>
+      <TextFlow prefHeight="26.0" prefWidth="859.0" style="-fx-border-color: black; -fx-border-width: 2;">
+         <children>
+            <Label text="Agregar una pregunta" translateX="5.0" translateY="5.0" />
+         </children>
+      </TextFlow>
+      <Label layoutX="153.0" layoutY="58.0" prefHeight="26.0" prefWidth="62.0" text="Pregunta" />
+      <TextField fx:id="txtTextFieldAgregarPregunta" layoutX="280.0" layoutY="59.0" prefHeight="24.0" prefWidth="478.0" />
+      <Label layoutX="215.0" layoutY="154.0" text="Tiempo límite en Segundos" />
+      <SplitMenuButton fx:id="splitMBTiempoLimiteAgregarPregunta" layoutX="463.0" layoutY="150.0" mnemonicParsing="false" prefHeight="24.0" prefWidth="221.0" text="SplitMenuButton">
+        <items>
+          <MenuItem mnemonicParsing="false" text="Action 1" />
+          <MenuItem mnemonicParsing="false" text="Action 2" />
+        </items>
+      </SplitMenuButton>
+      <Label layoutX="304.0" layoutY="233.0" text="Puntos" />
+      <TextField fx:id="txtTextFieldPuntosAgregarPregunta" layoutX="403.0" layoutY="229.0" />
+      <Label layoutX="309.0" layoutY="287.0" text="Respuestas" />
+      <RadioButton fx:id="rBRrespuesta1AgregarPregunta" layoutX="414.0" layoutY="286.0" mnemonicParsing="false" text="RadioButton" />
+      <RadioButton fx:id="rBRrespuesta2AgregarPregunta" layoutX="414.0" layoutY="311.0" mnemonicParsing="false" text="RadioButton" />
+      <RadioButton fx:id="rBRrespuesta3AgregarPregunta" layoutX="414.0" layoutY="339.0" mnemonicParsing="false" text="RadioButton" />
+      <RadioButton fx:id="rBRrespuestaAgregar4Pregunta" layoutX="414.0" layoutY="366.0" mnemonicParsing="false" text="RadioButton" />
+      <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#ffffff00" height="26.0" layoutY="595.0" stroke="BLACK" strokeType="INSIDE" width="856.0" />
+   </children>
+</AnchorPane>

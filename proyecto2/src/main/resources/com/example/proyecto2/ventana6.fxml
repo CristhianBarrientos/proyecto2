@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.image.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.shape.*?>
+<?import javafx.scene.text.*?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="622.0" prefWidth="859.0" style="-fx-border-color: black; -fx-border-width: 5;" xmlns="http://javafx.com/javafx/17.0.2-ea" xmlns:fx="http://javafx.com/fxml/1">
+   <children>
+      <TextFlow prefHeight="26.0" prefWidth="859.0" style="-fx-border-color: black; -fx-border-width: 2;">
+         <children>
+            <Label text="Competencia" translateX="4.0" translateY="4.0" />
+         </children></TextFlow>
+      <Label layoutX="138.0" layoutY="83.0" text="Pregunta " />
+      <Label fx:id="labelContadorPreguntas" layoutX="202.0" layoutY="83.0" text="." />
+      <Label layoutX="214.0" layoutY="83.0" text="de" />
+      <Label fx:id="labelContadorPreguntasFijo" layoutX="239.0" layoutY="83.0" text="." />
+      <Label fx:id="labelMostrarPregunta" layoutX="138.0" layoutY="132.0" text="Pregunta" />
+      <Label layoutX="168.0" layoutY="190.0" text="Respuestas" />
+      <RadioButton fx:id="rbRespuestaSeleccion1" layoutX="257.0" layoutY="206.0" mnemonicParsing="false" text="RadioButton" />
+      <RadioButton fx:id="rbRespuestaSeleccion2" layoutX="257.0" layoutY="241.0" mnemonicParsing="false" text="RadioButton" />
+      <RadioButton fx:id="rbRespuestaSeleccion3" layoutX="257.0" layoutY="276.0" mnemonicParsing="false" text="RadioButton" />
+      <RadioButton fx:id="rbRespuestaSeleccion4" layoutX="257.0" layoutY="311.0" mnemonicParsing="false" text="RadioButton" />
+      <Label layoutX="558.0" layoutY="182.0" prefHeight="44.0" prefWidth="166.0" text="Segundos restantes para contestar" wrapText="true">
+         <font>
+            <Font size="16.0" />
+         </font>
+      </Label>
+      <Label fx:id="labelContadorMinutos" alignment="CENTER" layoutX="580.0" layoutY="252.0" prefHeight="67.0" prefWidth="32.0" text="1">
+         <font>
+            <Font name="System Bold Italic" size="24.0" />
+         </font>
+      </Label>
+      <Label fx:id="labelContadorSegundos" alignment="CENTER" layoutX="612.0" layoutY="252.0" prefHeight="67.0" prefWidth="32.0" text="0">
+         <font>
+            <Font name="System Bold Italic" size="24.0" />
+         </font>
+      </Label>
+      <Label fx:id="labelNombreEstudiante" layoutX="170.0" layoutY="433.0" prefHeight="54.0" prefWidth="133.0" text="El Sobrenombre">
+         <font>
+            <Font size="15.0" />
+         </font></Label>
+      <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#ffffff00" height="26.0" layoutY="595.0" stroke="BLACK" strokeType="INSIDE" width="858.0" />
+      <Label layoutX="569.0" layoutY="441.0" text="Total de Puntos" />
+      <ImageView fx:id="imgSignoMasCompetencia" fitHeight="54.0" fitWidth="59.0" layoutX="712.0" layoutY="479.0" pickOnBounds="true" preserveRatio="true" style="-fx-opacity: .75;">
+         <image>
+            <Image url="@signodeSuma.png" />
+         </image>
+      </ImageView>
+      <Label fx:id="labelTotalPunteo" layoutX="609.0" layoutY="484.0" text="0">
+         <font>
+            <Font size="36.0" />
+         </font>
+      </Label>
+   </children>
+</AnchorPane>
